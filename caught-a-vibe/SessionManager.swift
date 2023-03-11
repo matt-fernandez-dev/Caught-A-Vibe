@@ -36,6 +36,26 @@ class SessionManager: NSObject, ObservableObject {
         }
     }
     
+    func login(email: String, password: String) {
+        Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
+            if error != nil {
+                print(error?.localizedDescription ?? "")
+            } else {
+                print("success")
+            }
+        }
+    }
+    
+    func signup(email: String, password: String) {
+        Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
+            if error != nil {
+                print(error?.localizedDescription ?? "")
+            } else {
+                print("success")
+            }
+        }
+    }
+    
     func unbind() {
         if let handle = handle {
             Auth.auth().removeStateDidChangeListener(handle)

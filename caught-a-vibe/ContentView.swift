@@ -16,7 +16,7 @@ struct ContentView: View {
         
         Group {
             if session.loggedUser != nil {
-                HomeView(user: session.loggedUser?.email ?? "no email?")
+                HomeView()
             }
             else {
                 LoginView()
