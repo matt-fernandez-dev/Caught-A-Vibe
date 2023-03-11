@@ -4,6 +4,9 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
+		<string>DancingScript-SemiBold.ttf</string>
+		<string>DancingScript-Regular.ttf</string>
+		<string>DancingScript-Bold.ttf</string>
 		<string>DancingScript-Medium.ttf</string>
 	</array>
 </dict>

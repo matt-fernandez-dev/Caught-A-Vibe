@@ -19,7 +19,9 @@ struct ContentView: View {
                 HomeView()
             }
             else {
-                LoginView()
+                NavigationView {
+                    LoginView()
+                }
             }
     }
     }

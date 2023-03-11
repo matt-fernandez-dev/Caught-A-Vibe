@@ -26,6 +26,7 @@
 		F3E6883D29BD3C3C008D880A /* DancingScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3E6883929BD3C3B008D880A /* DancingScript-Regular.ttf */; };
 		F3E6883E29BD3C3C008D880A /* DancingScript-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3E6883A29BD3C3B008D880A /* DancingScript-SemiBold.ttf */; };
 		F3E6883F29BD3C3C008D880A /* DancingScript-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3E6883B29BD3C3C008D880A /* DancingScript-Medium.ttf */; };
+		F3E6884329BD43AB008D880A /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E6884229BD43AB008D880A /* RegisterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		F3E6883A29BD3C3B008D880A /* DancingScript-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-SemiBold.ttf"; sourceTree = "<group>"; };
 		F3E6883B29BD3C3C008D880A /* DancingScript-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Medium.ttf"; sourceTree = "<group>"; };
 		F3E6884029BD3DED008D880A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F3E6884229BD43AB008D880A /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,11 +96,9 @@
 				F3E6883729BD3BF8008D880A /* Fonts */,
 				F3E6882F29BBDDF7008D880A /* GoogleService-Info.plist */,
 				117D40F529B8DB7600D6F427 /* caught_a_vibeApp.swift */,
-				117D40F729B8DB7600D6F427 /* ContentView.swift */,
+				F3E6884129BD4284008D880A /* Views */,
 				117D40F929B8DB7700D6F427 /* Assets.xcassets */,
 				117D40FB29B8DB7700D6F427 /* Preview Content */,
-				F3E6883129BBF501008D880A /* HomeView.swift */,
-				F3E6883329BBF7CE008D880A /* LoginView.swift */,
 				F3E6883529BBF837008D880A /* SessionManager.swift */,
 			);
 			path = "caught-a-vibe";
@@ -121,6 +121,17 @@
 				F3E6883A29BD3C3B008D880A /* DancingScript-SemiBold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F3E6884129BD4284008D880A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				117D40F729B8DB7600D6F427 /* ContentView.swift */,
+				F3E6883129BBF501008D880A /* HomeView.swift */,
+				F3E6883329BBF7CE008D880A /* LoginView.swift */,
+				F3E6884229BD43AB008D880A /* RegisterView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +224,7 @@
 				F3E6883229BBF501008D880A /* HomeView.swift in Sources */,
 				117D40F829B8DB7600D6F427 /* ContentView.swift in Sources */,
 				F3E6883429BBF7CE008D880A /* LoginView.swift in Sources */,
+				F3E6884329BD43AB008D880A /* RegisterView.swift in Sources */,
 				F3E6883629BBF837008D880A /* SessionManager.swift in Sources */,
 				117D40F629B8DB7600D6F427 /* caught_a_vibeApp.swift in Sources */,
 			);
